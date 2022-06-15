@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[hiii how are you]]>
+    </line>
+    <line>
+      <![CDATA[hiii how are you]]>
+    </line>
+    <line>
+      <![CDATA[hiii how are you]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-06-11T21:27:07 IST" name="Suite" finished-at="2022-06-11T21:27:07 IST" duration-ms="115">
+    <groups>
+    </groups>
+    <test started-at="2022-06-11T21:27:07 IST" name="Test" finished-at="2022-06-11T21:27:07 IST" duration-ms="115">
+      <class name="testngpack.Rajat">
+        <test-method signature="a()[pri:0, instance:testngpack.Rajat@be35cd9]" started-at="2022-06-11T21:27:07 IST" name="a" finished-at="2022-06-11T21:27:07 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[hiii how are you]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- a -->
+      </class> <!-- testngpack.Rajat -->
+      <class name="testngpack.Rajat2">
+        <test-method signature="a()[pri:0, instance:testngpack.Rajat2@7671cb68]" started-at="2022-06-11T21:27:07 IST" name="a" finished-at="2022-06-11T21:27:07 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[hiii how are you]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- a -->
+      </class> <!-- testngpack.Rajat2 -->
+      <class name="testngpack.Rajat1">
+        <test-method signature="a()[pri:0, instance:testngpack.Rajat1@4944252c]" started-at="2022-06-11T21:27:07 IST" name="a" finished-at="2022-06-11T21:27:07 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[hiii how are you]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- a -->
+      </class> <!-- testngpack.Rajat1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
