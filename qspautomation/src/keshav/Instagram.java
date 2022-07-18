@@ -3,6 +3,9 @@ package keshav;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Instagram {
 
@@ -12,9 +15,12 @@ public class Instagram {
    WebDriver driver= new ChromeDriver();
    driver.manage().window().maximize();
    driver.get("http://www.instagram.com");
-     Thread.sleep(5000);
+
+ 
+   WebDriverWait wb = new WebDriverWait(driver, 30);
+   wb.until(ExpectedConditions.titleContains("username"));
      driver.findElement(By.name("username")).sendKeys("keshav");
-		Thread.sleep(1000);
+     
 		driver.findElement(By.name("password")).sendKeys("asdkjf");
 		Thread.sleep(1000);
 		driver.findElement(By.cssSelector("button[class*='L3NKy']")).click();

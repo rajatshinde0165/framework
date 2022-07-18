@@ -9,11 +9,13 @@
   <include name="smoke"></include>
   </define>
   <run>
+  <include name="smoke"></include> 
   <include name="integration"></include> 
+  <include name="functional"></include> 
   </run> 
   </groups>
     <classes>
-      <class name="testngpack.GroupFlag"/>
+      <class name="testngflag.GroupFlag"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

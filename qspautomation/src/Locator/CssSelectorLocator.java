@@ -14,5 +14,6 @@ public class CssSelectorLocator {
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 	driver.findElement(By.cssSelector("input[name='txtUsername']")).sendKeys("rajat");
 	driver.findElement(By.cssSelector("input[name='txtPassword']")).sendKeys("rajat1234");
+	driver.navigate().refresh();
 }
 }

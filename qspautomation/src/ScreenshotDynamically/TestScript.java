@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -31,8 +32,9 @@ public class TestScript extends BaseTest {
 		Reporter.log("createuser", true);
 		Reporter.log("createcontact", true);
 		softassert.assertAll();
+		
 	}
-	@Test
+	@AfterMethod
 	public void tearDown() {
 		driver.quit();
 	}

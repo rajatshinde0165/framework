@@ -5,11 +5,11 @@ import org.testng.annotations.Test;
 
 public class GroupFlag {
 
-		@Test(groups = "funtional")
+		@Test(groups = "functional")
 		public void ft1() {
 			Reporter.log("ft1", true);
 		}
-		@Test(groups = "funtional")
+		@Test(groups = "functional")
 		public void ft2(){
 			Reporter.log("ft2", true);
 		}
@@ -30,7 +30,7 @@ public class GroupFlag {
 			Reporter.log("it1", true);
 		}
 		@Test(groups = "integration")
-		public void it2() {
+		public void it2() {														
 			Reporter.log("it2", true);
 		}
 		@Test(groups = "integration")

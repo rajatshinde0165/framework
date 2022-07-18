@@ -14,7 +14,7 @@ import com.google.common.io.Files;
 public class BaseTest {
 	static  WebDriver driver;
 	
-	public static void initialization() {
+	public  void initialization() {
 		System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
